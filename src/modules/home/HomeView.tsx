@@ -72,7 +72,7 @@ const HomeView: React.FC = () => {
 	const socketRef = useRef<WebSocket | null>(null);
 
 	// API URL
-	const API_URL = "http://localhost:5296"; // Update with your API URL
+	const API_URL = "https://aroided-pos-api-dev.azurewebsites.net"; // Update with your API URL
 
 	// Connect to WebSocket
 	const connectWebSocket = () => {
